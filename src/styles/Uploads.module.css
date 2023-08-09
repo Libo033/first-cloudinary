@@ -1,0 +1,20 @@
+.container {
+  padding: 3%;
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.article {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: fit-content;
+  height: fit-content;
+  object-fit: cover;
+}
